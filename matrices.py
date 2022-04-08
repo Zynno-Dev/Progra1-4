@@ -44,4 +44,6 @@ def crearMatriz3(filas, columnas):
             matriz[i].append(randrange(0,50,2))
     return(matriz)
 
-print(crearMatriz3(10,10))
+matriz=crearMatriz3(10,10)
+matriz.insert(3,"\n")
+print(matriz)
